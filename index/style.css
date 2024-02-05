@@ -3,6 +3,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: #E8E9F3;
+    position: relative;
 }
 
 colorpalette {
@@ -10,32 +11,4 @@ colorpalette {
     color: #A6A6A8;
     color: #CECECE;
     color: #E8E9F3;
-}
-
-#upperborder {
-    position: relative;
-    font-weight: bold;
-    padding: 15px;
-    text-align: center;
-    background-color: #A6A6A8;
-}
-
-.upperboarderheading {
-    font-size: 25px;
-}
-
-#leftnavbar {
-    background-color: #CECECE;
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.leftnavbarcontent {
-    padding: 10px;
-    position: absolute;
-    top: 25%;
-    transform: translateY(-25%);
 }
